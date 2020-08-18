@@ -1,0 +1,23 @@
+
+.container,
+.row {
+  height: 100vh;
+}
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+
+}
+.box{
+    width: auto;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
